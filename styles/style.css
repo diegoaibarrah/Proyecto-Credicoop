@@ -1,0 +1,152 @@
+
+body{
+    margin: 0%;
+    background-color: #ffffff;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    background-color: #3c352b;
+    width: 100%;
+    height: auto;
+}
+
+
+.header__nav {   
+    background-color: #3c352b;
+    padding: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0px;
+
+}
+.header__nav--logo{
+    position: relative;
+  }
+.header__nav--img{
+    margin-bottom: -2rem;
+}
+.header__nav--div{
+    display: inline-block;
+    position: relative;
+    margin-left: 2rem;
+}
+
+.header__nav--ul {
+    background-color: #3c352b;
+    display: contents;
+    list-style: none;
+    font-size:0;
+    position:absolute;
+    margin-left: 5px;
+}
+
+.header__nav--li {
+    display: inline-block;
+    position:relative;
+    font-size: 14px;
+    margin: 5px;
+    margin-left: 2rem;
+    font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header__nav--a {
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:17px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    width: 50px;
+  }
+
+.barra{
+      font-size: 2rem;
+      color: #fff;
+  }
+
+.bg-naranja{
+    font-weight: bold;
+    padding: 0.7rem;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: orange;
+    color:#fff;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main__banner--1{
+    overflow: hidden;
+    width: 100%;
+    height: auto
+
+}
+
+.main__flex{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+.main__flex--1{
+    margin: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+
+.main__personas{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.main__personas--jubilados{
+overflow: hidden;
+width: 550px;
+height: 350px;
+margin: 50px;
+}
+
+.main__personas--text{
+    justify-content: flex-end;
+    margin: 30px;
+    text-justify: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.body__grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .header__nav{
+        padding: 0px;
+
+    } 
+    .header__nav--img{
+        padding-top: 0.3rem;
+        padding-left: 0.3rem;
+    }
+
+    .header__nav--li{
+    display: inline-block;
+    position: relative;
+    font-size: 4px;
+    margin: 0px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+

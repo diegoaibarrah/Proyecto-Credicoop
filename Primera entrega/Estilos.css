@@ -1,0 +1,70 @@
+
+body{
+    margin: 0%;
+    background-color: #ffffff;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+nav{
+
+    background-color: #3c352b;
+    padding: 45px;
+
+}
+
+h1{
+    color: #ffffff;
+    size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+    
+ }
+ li {
+    display: inline-block;
+    position:relative;
+    font-size: 14px;
+    margin: 5px;
+    
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+    margin-left: 5px;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+ 
+ a{
+     background-color: #fd7d26;
+     color: #ffffff; 
+     size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ ul a {
+
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    width: 50px;
+  }
+
+  .logo{
+      float: left;
+      margin-top: -22.5px;
+      margin-right: 20px;
+}
