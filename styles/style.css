@@ -122,12 +122,6 @@ margin: 50px;
     text-align: justify;
 }
 
-.body__grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-
-}
 
 @media only screen and (max-width: 768px) {
     .header__nav{
